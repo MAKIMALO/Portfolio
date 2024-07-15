@@ -16,7 +16,7 @@
     <header id="header_site_menu">
         <nav class="navbar">
             <div class="logo">
-                <a href="http://localhost/AM_web/">
+                <a href="http://localhost/portfolio/">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.webp" alt="Logo AM2C web">
                 </a>
             </div>
@@ -29,6 +29,12 @@
                     )
                 ); ?>
             </div>
+            <a id="openBtn" href="#">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/burger_menu.png" alt="Logo burger menu">
+            </a>
+            <a id="closeBtn" href="#">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/close_btn.png" alt="Croix de fermeture du burger menu">
+            </a>
         </nav>
 
     </header>

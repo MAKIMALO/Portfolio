@@ -35,15 +35,18 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
+
 #wpadminbar {
     position: fixed;
     width: 100%;
     z-index: 8999;
     max-height: 32px;
+    font-size: calc(0.5rem + 1vw);
     top: 0;
     left: 0;
     right: 0;
 }
+
 
 .current-menu-item a {
     font-weight: bold;
