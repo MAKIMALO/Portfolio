@@ -1,0 +1,60 @@
+/*** GOOGLE FONTS ***/
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/montserrat/Montserrat-Regular.woff2') format("woff2");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/roboto/Roboto-Regular.woff2') format("woff2");
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+/*** VARIABLES COULEURS ***/
+
+$primary-color : #045174;
+$secondary-color : #F9EFE5;
+$third-color : #E87A00;
+$fourth-color : #001F3D;
+
+
+/*** GENERAL ***/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#wpadminbar {
+    position: fixed;
+    width: 100%;
+    z-index: 8999;
+    max-height: 32px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.current-menu-item a {
+    font-weight: bold;
+    border-bottom: 2px solid $primary-color;
+    padding-bottom: 5px;
+}
+
+
+/*** HEADER ***/
+@import "stylesSass/_header";
+
+
+/*** FOOTER ***/
+@import "stylesSass/_footer";
