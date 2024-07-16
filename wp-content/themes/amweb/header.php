@@ -28,17 +28,15 @@
                         'walker' => new AMweb_Walker_Nav_Menu()
                     )
                 ); ?>
+                <a id="openBtn" href="#">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/burger_menu.png" alt="Logo burger menu">
+                </a>
+                <a id="closeBtn" href="#">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/close_btn.png" alt="Croix de fermeture du burger menu">
+                </a>
             </div>
-            <a id="openBtn" href="#">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/burger_menu.png" alt="Logo burger menu">
-            </a>
-            <a id="closeBtn" href="#">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/close_btn.png" alt="Croix de fermeture du burger menu">
-            </a>
         </nav>
-
     </header>
-
 
 </body>
 </html>
