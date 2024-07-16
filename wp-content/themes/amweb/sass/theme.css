@@ -43,11 +43,11 @@ h1, h2, h3, h4, h5, h6 {
 /*** HEADER ***/
 #header_site_menu {
   width: 100%;
-  position: fixed;
+  position: relative;
   left: 0;
   top: 0;
   z-index: 9000;
-  background-color: #F9EFE5;
+  background-color: #FFF9F2;
   box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.1);
 }
 #header_site_menu .navbar {
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 16px 0;
   }
   .header_menu #menu-header li a {
-    color: #F9EFE5;
+    color: #FFF9F2;
     text-decoration: none;
     font-size: 18px;
   }
@@ -193,7 +193,7 @@ footer .footer-additional-info {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  color: #F9EFE5;
+  color: #FFF9F2;
   text-align: center;
 }
 footer .footer-additional-info > p {
@@ -218,7 +218,7 @@ footer .footer_site_menu #menu-footer > li :hover {
 }
 footer .footer_site_menu #menu-footer > li > a {
   text-decoration: none;
-  color: #F9EFE5;
+  color: #FFF9F2;
 }
 
 @media (max-width: 781px) {
