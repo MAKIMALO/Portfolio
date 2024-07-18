@@ -17,7 +17,7 @@
         <nav class="navbar">
             <div class="logo">
                 <a href="http://localhost/portfolio/">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.webp" alt="Logo AMC-web">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="Logo AMC-web">
                 </a>
             </div>
             <div class="header_menu" role="navigation" aria-label="<?php _e('Menu principal', 'text-domain'); ?>">
