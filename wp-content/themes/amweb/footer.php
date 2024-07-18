@@ -9,7 +9,7 @@
         ?>
     </div>
     <div class="footer-additional-info">
-        <p>Copyright ©2024 AM2C-web – Tous droits réservés</p>
+        <p>Copyright ©2024 AMC-web – Tous droits réservés</p>
     </div>
 </footer>
 
