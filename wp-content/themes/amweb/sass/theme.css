@@ -250,15 +250,18 @@ footer .footer_site_menu #menu-footer > li > a {
   font-size: 20px !important;
 }
 .wpcf7 .wpcf7-form {
-  width: 100%;
-  max-width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  width: 800px;
+  padding: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+}
+.wpcf7 .wpcf7-form > p {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .wpcf7-form label {
@@ -266,17 +269,16 @@ footer .footer_site_menu #menu-footer > li > a {
 }
 .wpcf7-form label .wpcf7-form-control-wrap input,
 .wpcf7-form label .wpcf7-form-control-wrap textarea {
-  height: 50px;
-  width: 500px;
+  height: 44px;
+  width: 600px;
   border-radius: 7px;
   border: none;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  margin-top: 10px;
+  margin-top: 4px;
   font-size: 16px;
 }
 .wpcf7-form label .wpcf7-form-control-wrap textarea {
-  height: 237px;
+  height: 240px;
 }
 
 .wpcf7-form .wpcf7-submit {
