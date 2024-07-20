@@ -29,12 +29,17 @@ footer {
             padding-left: 0;
             > li {
                 list-style-type: none;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
                 :hover {
                     color: $third-color;
                 }
                 > a {
                     text-decoration: none;
                     color: $secondary-color;
+                    text-align: center;
                 }
             }
         }

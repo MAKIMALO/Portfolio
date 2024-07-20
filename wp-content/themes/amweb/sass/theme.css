@@ -110,27 +110,22 @@ h1, h2, h3, h4, h5, h6 {
 
 #openBtn,
 #closeBtn {
-  position: fixed;
+  position: absolute;
   z-index: 10000;
   cursor: pointer;
   opacity: 1;
   display: none;
+  right: 80px;
+  top: 48px;
 }
 
 @media (max-width: 950px) {
   .navbar {
     padding-left: 20px;
     padding-right: 20px;
+    position: relative;
   }
   #menu-header {
-    display: none;
-  }
-  #openBtn,
-  #closeBtn {
-    position: fixed;
-    z-index: 10000;
-    cursor: pointer;
-    right: 60px;
     display: none;
   }
   #openBtn {
@@ -212,6 +207,10 @@ footer .footer_site_menu #menu-footer {
 }
 footer .footer_site_menu #menu-footer > li {
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 footer .footer_site_menu #menu-footer > li :hover {
   color: #E87A00;
@@ -219,6 +218,7 @@ footer .footer_site_menu #menu-footer > li :hover {
 footer .footer_site_menu #menu-footer > li > a {
   text-decoration: none;
   color: #FFFAF6;
+  text-align: center;
 }
 
 @media (max-width: 781px) {
@@ -247,46 +247,52 @@ footer .footer_site_menu #menu-footer > li > a {
   justify-content: center;
   align-items: center;
   font-family: "Roboto", sans-serif;
-  font-size: 20px !important;
+  font-size: clamp(1rem, 2vw, 1.25rem) !important;
 }
 .wpcf7 .wpcf7-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 800px;
-  padding: 10px;
+  width: 80vw;
+  max-width: 800px;
+  padding: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 .wpcf7 .wpcf7-form > p {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+.wpcf7 .wpcf7-form > p .wpcf7-spinner {
+  margin: 0;
+  width: 0px;
+  height: 0px;
 }
 
 .wpcf7-form label {
-  font-size: 20px;
+  font-size: clamp(1rem, 2vw, 1.25rem);
 }
 .wpcf7-form label .wpcf7-form-control-wrap input,
 .wpcf7-form label .wpcf7-form-control-wrap textarea {
-  height: 44px;
-  width: 600px;
+  height: 2.75rem;
+  width: 75vw;
+  max-width: 600px;
   border-radius: 7px;
   border: none;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  margin-top: 4px;
-  font-size: 16px;
+  margin-top: 0.25rem;
+  font-size: clamp(1rem, 1.6vw, 1.25rem);
 }
 .wpcf7-form label .wpcf7-form-control-wrap textarea {
-  height: 240px;
+  height: 15rem;
 }
 
 .wpcf7-form .wpcf7-submit {
-  margin-left: 65px;
-  height: 55px;
-  width: 230px;
-  border-radius: 5px;
-  font-size: 18px;
+  height: clamp(2.5rem, 5vw, 3.4375rem);
+  width: clamp(10rem, 20vw, 14.375rem);
+  border-radius: 0.3125rem;
+  font-size: clamp(1rem, 1.8vw, 1.25rem);
   color: #001F3D;
   background-color: #E87A00;
   cursor: pointer;
